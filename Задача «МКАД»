@@ -1,0 +1,28 @@
+v=int(input())
+t=int(input())
+s=(v*t)
+print ((v * t) % 109)
+
+a = int(input())
+b = int(input())
+print((a * b) % 109)
+
+from math import *
+v = int (input ())
+t = int (input ())
+s = v*t
+if (v >= 0):
+    print (s%109)
+else:
+    otmetka = fabs(s%109)
+    print (otmetka)
+
+v = int(input())
+t = int(input())
+
+answ = (t*v)%109
+
+if answ < 0 :
+    answ = 108+answ
+
+print(answ)
