@@ -1,0 +1,12 @@
+x=float(input())
+print (int(x*10%10))
+
+
+x = float(input())
+x *= 10
+x = int(x)
+print(x % 10)
+
+
+a = float(input())
+print(int((a-int(a))*10))
