@@ -1,0 +1,27 @@
+n=int(input())
+m=int(input())
+if m%n!=0:
+    print(m//n+1)
+else:
+    print(m//n)
+    
+    
+from math import ceil
+
+n = int(input())
+m = int(input())
+print(ceil(m / n))
+
+
+n = int(input())
+m = int(input())
+from math import ceil
+x = ceil(m / n) 
+print(x)
+
+
+n = int(input())
+m = int(input())
+import math
+x = math.ceil(m / n)
+print(x)
