@@ -1,0 +1,47 @@
+a=int(input())
+b=int(input())
+n=int(input())
+s=n*a+(n*b)//100
+x=(n*b)%100
+print(s,x)
+
+
+a = int(input())
+b = int(input())
+n = int(input())
+cost = n * (100 * a + b)
+print(cost // 100, cost % 100)
+
+
+a = int(input())
+b = int(input())
+n = int(input())
+print(a*n+(b*n)//100, b*n % 100)
+
+
+a = int(input())
+b = int(input())
+n = int(input())
+kop = (b*n)%100
+rub = (a*n) + (b*n)//100
+print (rub, kop)
+
+
+a=int(input())
+b=int(input())
+n=int(input())
+K=b*n
+R=a*n+K//100
+print(R,K%100)
+
+
+import math
+a=int(input())
+b=int(input())
+n=int(input())
+
+b=b/100
+a=(a+b)*n
+b=math.modf(a)
+b=b[0]*100
+print (int(a),round(b))
