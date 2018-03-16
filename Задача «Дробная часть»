@@ -1,0 +1,23 @@
+x=float(input())
+print (x-int(x))
+
+
+from math import floor
+a = float(input())
+
+b = floor(a)
+print(a - b)
+
+
+x = float(input())
+print(-(x//1) + x)
+
+
+x = float(input())
+print(float(x)%1)
+
+
+import math
+w=float(input())
+q=math.floor(w)
+print( w-q )
