@@ -1,0 +1,42 @@
+from math import *
+h=int(input())
+a=int(input())
+b=int(input())
+y=ceil((h-a)/(a-b))+1
+print(y)
+
+
+h = int(input())
+a = int(input())
+b = int(input())
+print(int((h - a - 1) // (a - b) + 2))
+
+
+h = int(input())
+a = int(input())
+b = int(input())
+
+if ((h - a) % (a - b)) !=0:
+    x = 1
+else:
+    x = 0
+x = x + 1 + ((h - a) // (a - b))
+print(x)
+
+
+from math import ceil
+h=int(input())
+a=int(input())
+b=int(input())
+print (ceil((h-a)/(a-b)+1))
+
+
+
+from math import *
+h=int(input())
+a=int(input())
+b=int(input())
+shag = a - b
+h0=h-a
+y=floor(1+h0/shag+(h0%shag+shag-1)/shag)
+print(y)
