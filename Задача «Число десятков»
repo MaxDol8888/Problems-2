@@ -1,0 +1,31 @@
+from math import *
+n=int(input())
+y=n/100
+z=int(y*10%10)
+print (z)
+
+
+n = int(input())
+print(n // 10 % 10)
+
+
+from math import *
+x=int(input())
+y=floor(x/100)*100
+a=x-y
+s=floor(a/10)
+print(s)
+
+
+a=int(input())
+if a>9 and a<100:
+    print(a//10)
+else:
+    x=a%10
+    a=a//10
+    y=a%10
+    a=a//10
+    print(y)
+    
+    
+    
