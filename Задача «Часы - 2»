@@ -1,0 +1,23 @@
+A=float(input())
+B=A%30*12
+print(B)
+
+
+alpha = float(input())
+print(alpha % 30 * 12)
+
+
+a = float(input())
+b=a%30
+sg=3600/30
+x = ((b*sg)/60)*6
+print(x)
+
+
+deg = float(input())
+hours = deg//30
+deg -= hours*30
+mins = deg/30*60
+mins = mins
+deg = mins*360/60
+print(deg)
