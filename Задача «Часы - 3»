@@ -1,0 +1,52 @@
+A=float(input())
+h=A//30
+m=(A%30)//0.5
+s=int((A%30)%0.5/(0.5/60))
+print (h,m,s)
+
+
+angle = float(input())
+print(int(angle // 30), int(angle % 30 * 2), int(angle % 0.5 * 120))
+
+
+a=float(input())
+t=a/720*24
+h=int(t)
+x=t-h
+m=int(x*60)
+u=x*60-m
+u=int(u*60)
+print(h,m,u)
+
+
+a = float(input())
+print(a*120//3600,((a*120)%3600)//60,int((a*120)%3600%60), sep = '\n')
+
+
+a = float(input()) 
+h = int(a // 30) 
+m = int((a % 30) / 0.5) 
+s = int((a - (h * 30 + int(a % 30))) / 0.00833333333) 
+if s <= 59:
+    print (h ,m , s) 
+else:
+    print (h ,m , s - 60)
+    
+    
+    h = float(input())
+
+pp = h*12/360         # точное время(часов): **,****** round
+hh = int(pp)
+m = (pp-hh)*60
+mm = int(m)
+ss = (m-mm)*60
+ss = int(ss)
+print(hh,mm, ss)
+
+
+a = float(input())
+b = a*120
+H = int(b//60//60)
+M = int((b - H*60*60) // 60)
+S = int(b - H*60*60 - M*60)
+print(H, M, S)
