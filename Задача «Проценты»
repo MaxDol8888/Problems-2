@@ -1,0 +1,49 @@
+p=int(input())
+x=int(input())
+y=int(input())
+z=x*100+y
+s=z+z/100*p
+v=s//100
+w=s%100
+print(int(v),int(w))
+
+
+p = int(input())
+x = int(input())
+y = int(input())
+money_before = 100 * x + y
+money_after = int(money_before * (100 + p) / 100)
+print(money_after // 100, money_after % 100)
+
+
+p=int(input())
+x=int(input())
+y=int(input())
+v=(x+y/100)*(1+p/100)
+x=int(v)
+y=int(v*100)%100
+print(x,y)
+
+
+p = int(input())
+x = int(input())
+y = int(input())
+sum = (x * 100) + y
+sum = sum + sum / 100 * p
+print(int(sum // 100), int(sum % 100))
+
+
+from math import *
+P = int(input())
+X = int(input())
+Y = int(input())
+S = X * (100 + P ) + Y * (1 + P / 100)
+print (str (S // 100) + " " + str(floor(S % 100)))
+
+
+p = int(input())
+x = int(input())
+y = int(input())
+a = 100 * x + y
+b = int(a * (100 + p) / 100)
+print(b // 100, b % 100)
